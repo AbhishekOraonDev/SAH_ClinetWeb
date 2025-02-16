@@ -9,15 +9,15 @@ function App() {
 
   return (
     <>
-      <NavbarComponent />
       <Router>
+        <NavbarComponent />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/Industries" element={<IndustriesPage />} />
-          <Route path="/Contact" element={<ContactUs/>} />
+          <Route path="/Contact" element={<ContactUs />} />
         </Routes>
+        <FooterComponent />
       </Router>
-      <FooterComponent />
     </>
   )
 }
