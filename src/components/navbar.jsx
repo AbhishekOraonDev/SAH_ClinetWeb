@@ -57,11 +57,11 @@ export default function NavbarComponent() {
                 </div>
                 <PopoverGroup className="hidden lg:flex lg:gap-x-12">
 
-                    <a href="#" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
+                    <a href="/" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
                         Home
                     </a>
 
-                    <a href="#" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
+                    <a href="/#about" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
                         About
                     </a>
 
@@ -98,11 +98,11 @@ export default function NavbarComponent() {
                         </PopoverPanel>
                     </Popover>
 
-                    <a href="#" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
+                    <a href="/industries" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
                         Industries
                     </a>
 
-                    <a href="#" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
+                    <a href="/contact" className="text-lg font-semibold text-gray-900 hover:text-indigo-600">
                         Contact us
 
                     </a>
@@ -139,10 +139,10 @@ export default function NavbarComponent() {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
 
-                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
+                                <a href="/" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
                                     Home
                                 </a>
-                                <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
+                                <a href="/#about" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50" >
                                     About
                                 </a>
 
@@ -165,27 +165,20 @@ export default function NavbarComponent() {
                                     </DisclosurePanel>
                                 </Disclosure>
                                 <a
-                                    href="#"
+                                    href="/industries"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                                 >
                                     Industries
                                 </a>
                                 <a
-                                    href="#"
+                                    href="/contact"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                                 >
                                     Contact us
                                 </a>
 
                             </div>
-                            <div className="py-6">
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                                >
-                                    Log in
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </DialogPanel>
